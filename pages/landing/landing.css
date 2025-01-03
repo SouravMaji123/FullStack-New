@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.landing-page {
+  background-color: #1b1b33;
+  color: #fff;
+}
+.Formbotlogo{
+  padding-left: 50%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #1b1b33;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-buttons button {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.main-button {
+  background-color: #1a73e8;
+  color: #fdfdfe;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.main-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 50px 20px;
+}
+
+.content {
+  text-align: center;
+}
+.Typebot{
+padding-left: 30%;
+padding-right: 30%;
+
+}
+.container-image {
+  max-width: 90%;
+  max-height: 50%;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.triangle,
+.arc {
+  position: absolute;
+  width: 18%; }
+
+.triangle {
+  top: 10%;
+  left: 1%;
+}
+
+.arc {
+  top: 6%;
+  right: 1%;
+}
+
+.footer {
+  background-color: #12122c;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-section h3 {
+  margin-bottom: 15px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+  

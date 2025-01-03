@@ -1,3 +1,4 @@
+//helper/index.js
 import { decodeToken } from "react-jwt";
 
 export function addTokenToHeader({ headers }) {
@@ -9,7 +10,7 @@ export function addTokenToHeader({ headers }) {
 }
 
 export function handleApiResponse(res) {
-    switch (res.response.status) {
+    switch (res.status) {
         case 401:
             localStorage.removeItem("token");
             alert("You're logged out");
@@ -30,6 +31,7 @@ export function handleApiResponse(res) {
             alert("Something went wrong");
             break;
     }
+
 }
 
 export function isEditable(id) {

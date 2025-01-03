@@ -1,17 +1,21 @@
 import AddJob from "./addjob";
-import EditJob from "./editjob";
-import JobDetail from "./jobdetail";
-import JobList from "./joblist";
+import FolderManager from "./editjob";
+import Formbuilder from "./formbuilder";
+import FormBot from "./formbot";
+import Dashboard from "./dashboard";
 import Login from "./login";
+import Landingpage from "./landing";
 import Register from "./register";
 import NotFound from "./notfound";
 
 export {
     AddJob,
-    EditJob,
-    JobDetail,
-    JobList,
+    FolderManager,
+    Formbuilder,
+    Dashboard,
     Login,
     Register,
-    NotFound
+    NotFound,
+    FormBot,
+    Landingpage
 }
